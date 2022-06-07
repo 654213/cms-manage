@@ -1,7 +1,8 @@
 import  ReactDOM  from "react-dom";
-import App from './App'
+import MyRouter from 'routers'
+import './base.less'
 
 ReactDOM.render(
-    <App />,
+    <MyRouter />,
     document.getElementById("root")
 )
